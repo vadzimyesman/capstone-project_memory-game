@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>After loged in or registered</title>
+    <link href="./reset.css" rel="stylesheet">
+    <link href="./index.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header" style="align-items: center;">
+        <div class="headerElement" id="welcome3">
+            <a href="./index1.html" style="color: rgb(0, 0, 0); margin: 0%;">Log out</a>
+        </div>
+    </header>
+
+<section  id="section2" style="background-image: url('../images/woman-5731505_1280.jpg');">
+    <div class="white" id="instructions">
+        <h2 class="diffChoice" style="margin-top: 40px; color: #9adf9a;"> INSTRUCTIONS: </h2>
+        <article style="width: 600px;" id="article1" class="mTop">
+            <ol style="font-size: 22px;">
+                <li>1. Choose the difficulty level and click the "START GAME" button to start the game.</li>
+                <br>
+                <li>2. Depending on the difficulty level you will see different size sets of cards.</li>
+                <br>
+                <li>3. Each card has a matching pair somewhere, both of them have the same picture.</li>
+                <br>
+                <li>4. You will have 10 seconds to memorize where are all the matching pairs located.</li>
+                <br>
+                <li>5. When you see all cards face-down you can start opening matching pairs by clicking on cards.</li>
+                <br>
+                <li>6. If you clicked on two cards and they match, those cards will stay face up.</li>
+                <br>
+                <li>7. If they didn't match they will flip face down after 0.5 seconds.</li>
+                <br>
+                <li>8. Your goal is to open all the matching pairs, and your score is the number of clicks you used.</li>
+                <br>
+                <li>9. The highest possible score is equal to the amount of cards you will see.</li>
+            </ol>
+
+        </article>
+  
+            
+
+        </ol>
+    </div>  
+            <div class="diffChoice">
+                <form class="white">  
+                    <h1 style="margin-top: 40px; color:#9adf9a;">DIFFICULTY:</h1>
+                    <div id="choose">
+                        <div class="mTop">
+                            
+                                <input class="circle" type="radio" name="diffOpt" id="easy"  value="EASY"/>                  
+                                <label for="easy">EASY</label>
+                        </div>              
+            
+                        <div class="mTop">
+                            
+                                <input  class="circle" type="radio"  name="diffOpt" id="medium" value="MEDIUM"/>                  
+                                <label for="medium">MEDIUM</label>
+                        </div >  
+                        <div class="mTop">
+                            
+                                <input class="circle" type="radio"  name="diffOpt" id="hard" value="HARD"/>                  
+                                <label for="hard">HARD</label>
+                        </div >
+                        <p id="choiceContainer" class="mTop">
+                            <button id="choiceBtn">START GAME</button>
+                        </p>        
+                    </div>
+                    
+            </form>
+            </div>       
+
+
+</section>
+<footer class="footer">© 2022 VADZIM YESMAN</footer>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="./index2.js"></script>
+</body>
+</html>

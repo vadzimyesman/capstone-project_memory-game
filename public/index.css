@@ -1,0 +1,216 @@
+
+.header{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+ 
+}
+.section{
+    height: 735px;
+}
+.white{
+    color: white;
+ 
+}
+.userInfo{
+    font-size: larger;
+
+   
+}
+
+#top2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    
+}
+#start{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#bestScores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#imgContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+#numberOfClicks{
+    display: flex;
+
+    justify-content: center;
+  
+}
+
+#numberOfCLicksInner{
+    display: flex;
+    flex-direction: row;
+}
+
+#centering{
+    display: flexbox;
+    align-content: center;
+}
+
+.headerElement{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px;
+    border-color: #9adf9a;;
+    border-style: solid;
+    border-radius: 7px;
+    background-color: white;
+    font-weight: bolder;
+    padding-top: 0px;
+    padding-right: 6px;
+    padding-bottom: 0px;
+    padding-left: 6px;
+}
+
+.footerElement{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px;
+    border-color: #9adf9a;
+    border-style: solid;
+    border-radius: 7px;
+    background-color: white;
+    font-weight: bolder;
+    padding-top: 0px;
+    padding-right: 6px;
+    padding-bottom: 0px;
+    padding-left: 6px;
+}
+#welcome{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.cn {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+.diffChoice{
+
+    font-size: 45px;
+  }
+
+#section2{
+    display: flex;
+    justify-content: space-evenly;
+    height:738px ;
+    
+}
+
+#instructions{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    
+}
+
+#article1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.mTop{
+    margin-top: 20px;
+
+}
+
+#choose{
+    display:flex;
+    flex-direction: column; 
+    width: 450px;
+  
+}
+#choiceBtn{
+    background-color: rgb(154, 223, 154);
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    font-size: 35px;
+}
+
+.circle{
+    border: 0px;
+    width: 50%;
+    height: 3em;
+    width: 50px;
+}
+.gameBtn{
+    height: 29px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+#message2{
+    display: flex;
+    flex-direction: column;
+}
+
+#playBtn{
+    width: 150px;
+    height: 80px;
+    background-color:#9adf9a;;
+    font-size: 28px;
+    font-weight: bolder;
+}
+#resetRecords{
+    width: 175px;
+    height: 80px;
+    background-color:#9adf9a;;
+    font-size: 28px;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+
+#logOutBtn{
+    color: rgb(0, 0, 0);
+    margin: 0%;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    display: flex;
+    padding-top: px;
+    padding-right: 6px;
+    padding-bottom: px;
+    padding-left: 6px;
+}
+
+#greeting1{
+    display: flex;
+
+}
